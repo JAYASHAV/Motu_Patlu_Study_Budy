@@ -17,10 +17,20 @@ return (<>
   <h2 style={{
     width: 'fit-content',
     margin: 'auto'
-  }}>Counter</h2>
-  <button onClick={countclick}>
-    CLICK : {numcount}
+  }}>DEAD COUNT</h2>
+  
+  <div style={{display:'flex'}}>
+
+  <button onClick={countclick}
+  style={{margin:"auto",
+  borderRadius:"100px",
+  borderColor:'gold',
+  
+  }} >
+    <h3 style={{margin:'0' }}>KILLS : {numcount}</h3>
   </button>
+
+  </div>
   
   
   </>
