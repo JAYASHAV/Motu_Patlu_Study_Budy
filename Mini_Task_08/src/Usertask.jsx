@@ -14,7 +14,7 @@ setCheck(cola.target.checked)
   }
   function crossline(){
    if (check == true ){
-    return <s>{data}</s>
+    return <s style={{color: "#6d6d6dff",}}>{data}</s>
    }
    else {
      return <span>{data}</span>

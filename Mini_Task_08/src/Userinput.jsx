@@ -23,8 +23,13 @@ const Userinput = () => {
   }
 
   return (<>
-    <input type={'text'} onKeyDown={taketask} />
+    <input type={'text'} onKeyDown={taketask}/>
+    <div style={{color:'black',
+      textDecoration: 'underline',
+    }}>
+
     {tasks.map(handlemap)}
+    </div>
 
 
   </>
