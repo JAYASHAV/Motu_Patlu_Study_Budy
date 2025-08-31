@@ -45,13 +45,20 @@ const Input = () => {
 
     return (
         <>
-            <div>
-                <input type="text" placeholder='ToDo' onKeyDown={handleEnter} />
+        <div className='border-black p-3 border-[4px] h-[350px] w-[250px] rounded-[30px] bg-[#c6aeae7a]'>
+            <div className='text-black font-bold border-dashed border-[3px] border-black rounded-[10px] m-auto w-fit my-[5px]'>
+                ToDo List
+                </div>
+
+            <div className='border-black text-black'>
+                <input type="text" placeholder='Enter Task' onKeyDown={handleEnter} 
+                 className='text-black border-black outline-black bg-gray-300'/>
             </div>
-            <div>
+            <div className='text-black'>
                 {/* <Task /> */}
                 {tasks.map(handleMap)}
             </div>
+        </div>
         </>
     )
 }

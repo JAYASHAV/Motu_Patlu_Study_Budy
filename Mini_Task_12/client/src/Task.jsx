@@ -24,10 +24,13 @@ const Task = ({ task, taskId, getTasks }) => {
     }
 
     return (
-        <div>
+        <div className='flex items-center justify-between'>
+            <div >
+
             <input type="checkbox" onChange={handleChange}/>
             {done? <s>{task}</s> : <span>{task}</span>}
-            <button onClick={handleDelete}>DELETE</button>
+            </div>
+            <button onClick={handleDelete} style={{borderRadius:'50%',height:'15px',width:'15px',padding:'0px',fontSize:'10px',backgroundColor:'red',fontWeight:'bolder' }}>x</button>
         </div>
     )
 }
