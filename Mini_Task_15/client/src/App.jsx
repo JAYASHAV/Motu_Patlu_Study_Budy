@@ -20,7 +20,6 @@ const App = () => {
     let response = await result.json()
     setStatus(response.isVerified)
     setMessage(response.message)
-    console.log(response)
   }
 
   function handleEffect() {

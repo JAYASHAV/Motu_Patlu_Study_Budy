@@ -18,7 +18,6 @@ const Login = ({setStatus, setMessage}) => {
         let response = await result.json()
         setStatus(result.status == 200)
         setMessage(response.message)
-        console.log(response)
     }
 
     return (

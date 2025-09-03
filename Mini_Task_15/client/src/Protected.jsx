@@ -13,7 +13,6 @@ const Protected = ({setStatus, setMessage}) => {
         let response = await result.json()
         setStatus(false)
         setMessage(response.message)
-        console.log(response)
     }
 
   return (<>

@@ -15,7 +15,6 @@ const Signup = ({setMessage}) => {
         })
         let response = await result.json()
         setMessage(response.message)
-        console.log(response)
     }
 
     return (
