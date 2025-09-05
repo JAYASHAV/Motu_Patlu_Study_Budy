@@ -4,7 +4,7 @@ const AboutSection = () => {
     return (
         <section id='about' className='w-4xl self-center font-poppins'>
             <header className='flex items-center justify-between gap-8'>
-                <h2 className='text-[#A6B2CC] text-4xl font-extrabold max-w-64'>About</h2>
+                <h2 className='text-[#A6B2CC] text-4xl font-bold max-w-64'>About</h2>
                 <div className='flex flex-1 bg-[#A6BBCC] rounded-full h-[2px]'></div>
             </header>
             <div className='px-10 mt-4'>
